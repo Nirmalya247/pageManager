@@ -1,0 +1,14 @@
+[
+    {"name": "Nirmalya Gayen", "roll": 5, "addr": [
+            {"city": "Baruipur", "pin": 700144}, {"city": "Barasat", "pin": 700026}
+        ]
+    },
+    {"name": "Subhosree Saha", "roll": 8, "addr": [
+            {"city": "Jadavpur", "pin": 700056}, {"city": "Barasat", "pin": 700026}
+        ]
+    },
+    {"name": "Sourav Dey", "roll": 9, "addr": [
+            {"city": "Purulia", "pin": 700424}
+        ]
+    }
+]

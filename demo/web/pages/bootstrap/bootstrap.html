@@ -1,0 +1,13 @@
+<div class="bootstrap">
+    <div class="top">
+        <button class="name" onclick="pageManager.replace('home', '!')">{{name}}</button>
+        <input class="search" placeholder="hearch">
+        <button class="searchb" onclick="pageManager.replace('home', '!', $('.search').val())">search</button>
+        <button class="loginB buts" onclick="pageManager.addPopup('login')">login</button>
+        <button class="profileB buts" onclick="pageManager.replace('profile', '!')">profile</button>
+        <button class="logoutB buts" onclick="bootstrap.auth(false)">logout</button>
+    </div>
+    <div class="content">
+
+    </div>
+</div>

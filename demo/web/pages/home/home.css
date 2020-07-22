@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    margin: 10px;
+}
+.home-login {
+    float: right;
+}
+.home-profile1 {
+    margin-left: 20px;
+}
+
+.user .name {
+    display: inline;
+    color: blue;
+}
+.name {
+    color: red;
+}
+.user {
+
+}
+.user .like {
+
+}

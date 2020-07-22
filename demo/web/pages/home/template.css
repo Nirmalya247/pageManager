@@ -1,0 +1,43 @@
+.nodes {
+    position: relative;
+    font: 12pt arial, sans-serif;
+}
+.node {
+    position: relative;
+    margin: 10px 0;
+    box-shadow: 2px 3px 13px 1px #BABABA;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nodes .name {
+    position: relative;
+    height: 20px;
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: block;
+    top: 0;
+    left: 0;
+}
+.nodes .roll {
+    position: relative;
+    font-size: 12pt;
+    color: gray;
+}
+.nodes .addr {
+    position: relative;
+    margin: 4px 0 0 0;
+    color: gray;
+    font-size: 12pt;
+}
+.nodes .addr-nodes {
+    position: relative;
+    font-size: 10pt;
+    display: inline-block;
+    background-color: #e8e8e8;
+    margin: 0 5px;
+    padding: 2px 4px;
+    border-radius: 5px;
+}

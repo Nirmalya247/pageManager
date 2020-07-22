@@ -1,0 +1,12 @@
+<div class="nodes" bindFrom="!">
+<div class="node" name="{{name}}" onclick="pageManager.add('detail', '{{name}}');">
+        <div class="name">Name: {{name}}</div>
+        <div class="roll">Roll: {{roll}}</div>
+        <div class="addr" bindFrom="addr">
+            Address: 
+            <div class="addr-nodes">
+                {{city}} pin: {{pin}}
+            </div>
+        </div>
+    </div>
+</div>

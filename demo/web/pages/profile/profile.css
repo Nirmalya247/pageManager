@@ -1,0 +1,10 @@
+.profile {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font: 12pt arial, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: gray;
+}

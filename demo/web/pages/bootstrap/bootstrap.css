@@ -1,0 +1,98 @@
+.bootstrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.bootstrap .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+}
+.bootstrap .name {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    height: 80%;
+    color: white;
+    font: 30px arial, sans-serif;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.bootstrap .name:focus {
+    outline: none;
+}
+.bootstrap .search {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 120px;
+    height: 60%;
+    width: 400px;
+    color: black;
+    font: 15px arial, sans-serif;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    padding: 0 0 0 5px;
+}
+.bootstrap .search:focus {
+    outline: none;
+}
+.bootstrap .searchb, .bootstrap .buts {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 520px;
+    height: 60%;
+    width: 80px;
+    color: black;
+    font: 15px arial, sans-serif;
+    background-color: #c4c4c4;
+    border-radius: 0 5px 5px 0;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.8s ease, color 0.8s ease, color 0.8s ease;
+}
+.bootstrap .searchb:focus, .bootstrap .buts:focus {
+    outline: none;
+}
+.bootstrap .searchb:hover, .bootstrap .buts:hover {
+    background-color: #aaaaaa;
+    color: black;
+}
+.bootstrap .buts {
+    top: 20%;
+    right: 10px;
+    left: auto;
+    height: 60%;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.bootstrap .loginB {
+    
+}
+.bootstrap .profileB {
+    right: 100px;
+    display: none;
+}
+.bootstrap .logoutB {
+    display: none;
+}
+.content {
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    right: 20%;
+    bottom: 0;
+    border: solid gray 1px;
+    border-width: 0 1px;
+}

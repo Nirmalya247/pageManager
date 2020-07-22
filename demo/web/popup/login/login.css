@@ -1,0 +1,31 @@
+.login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #5a5a5a45;
+}
+.login-contain {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    border-radius: 5px;
+    font: 12pt arial, sans-serif;
+    padding: 5px;
+}
+.login-close {
+    float: right;
+}
+.login-msg {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.login-b {
+    text-align: center;
+    margin: 50px 0 0 0;
+}

@@ -1,6 +1,6 @@
 # pageManager
-Single page website building framework with dynamic loading
-To run the demmo
+Single page website building framework with dynamic loading <br>
+To run the demo
 ```
 cd demo/node
 node main.js

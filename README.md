@@ -1,5 +1,10 @@
 # pageManager
 Single page website building framework with dynamic loading
+To run the demmo
+```
+cd demo/node
+node main.js
+```
 
 # Include this in your index.html
 ```
